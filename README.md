@@ -1,6 +1,6 @@
 # EURUSD Algorithmic Trading Project 📈
 
-**Course:** Algorithmic Trading (Winter 2025/2026)  
+**Course:**   Integrating Aspects of Asset Management
 **Strategy:** Momentum (10-minute Lookback)  
 **Status:** Completed ✅
 
