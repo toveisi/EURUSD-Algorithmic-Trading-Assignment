@@ -1,0 +1,13 @@
+[Unit]
+Description=EURUSD Momentum Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/paper_algo
+ExecStart=/root/miniconda3/envs/arima/bin/python main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
