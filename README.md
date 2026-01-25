@@ -47,6 +47,6 @@ To address performance decay seen in Out-of-Sample testing, we created an enhanc
 | :--- | :--- |
 | **`algo.service`** | Systemd configuration file to run the bot as a background process on Linux. |
 | **`Picture of Server Part.pdf`** | **Proof 1:** Screenshot showing the standard `main.py` running successfully. |
-| **`Picture of server for suggestion part.pdf`** | **Proof 2:** Screenshot showing the `main_adaptive.py` running with the connection retry loop working. |
+| **`Picture of Server for Suggested Part.pdf`** | **Proof 2:** Screenshot showing the `main_adaptive.py` running with the connection retry loop working. |
 
 
