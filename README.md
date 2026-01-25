@@ -12,7 +12,7 @@ This project performs data mining on 1-year of high-frequency EURUSD data (Nov 2
 * **`EURUSD_1min_data.csv`**: 1-minute OHLC market data used for the analysis.
 * **`main.py`**: The Python script for the live trading bot (connects to IB Gateway).
 * **`algo.service`**: Systemd configuration for running the bot as a background service.
-* * **`main_adaptive.py`**: An advanced version of the bot that calculates the rolling Sharpe Ratio. It automatically switches between Momentum and Mean Reversion strategies depending on market conditions.
+* **`main_adaptive.py`**: An advanced version of the bot that calculates the rolling Sharpe Ratio. It automatically switches between Momentum and Mean Reversion strategies depending on market conditions.
 
 ## 🚀 How to Run the Code
 1. **Research (Notebook):**
