@@ -1,0 +1,14 @@
+[Unit]
+Description=EURUSD Adaptive Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/paper_algo
+# CHANGE IS HERE: Pointing to main_adaptive.py
+ExecStart=/root/miniconda3/envs/arima/bin/python main_adaptive.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
