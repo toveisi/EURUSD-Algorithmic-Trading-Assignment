@@ -40,7 +40,7 @@ To address performance decay seen in Out-of-Sample testing, we created an enhanc
 | File Name | Description |
 | :--- | :--- |
 | **`main.py`** | **(Standard)** The basic Momentum Bot required for the assignment. |
-| **`main_adaptive.py`** | **(Bonus)** The advanced bot with Regime Switching (Momentum ↔ Mean Reversion). |
+| **`main_adaptive.py`** | **(Suggested)** The advanced bot with Regime Switching (Momentum ↔ Mean Reversion). |
 
 ### ⚙️ Server Configuration & Proof
 | File Name | Description |
@@ -50,21 +50,5 @@ To address performance decay seen in Out-of-Sample testing, we created an enhanc
 | **`Picture of server for suggestion part.pdf`** | **Proof 2:** Screenshot showing the `main_adaptive.py` running with the connection retry loop working. |
 
 ---
-
-## ⚙️ Installation & Deployment
-
-The bot is designed to run on a Linux server (Ubuntu/Debian) with **Interactive Brokers Gateway**.
-
-### 1. Setup (Linux)
-```bash
-# 1. Clone the repository
-git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
-cd YourRepoName
-
-# 2. Move files to the deployment folder
-mkdir -p /home/paper_algo
-cp main_adaptive.py /home/paper_algo/
-
-# 3. Configure the Service
-sudo cp algo.service /etc/systemd/system/
+c/systemd/system/
 sudo systemctl daemon-reload
