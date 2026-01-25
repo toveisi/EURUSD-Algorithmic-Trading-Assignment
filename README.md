@@ -49,6 +49,4 @@ To address performance decay seen in Out-of-Sample testing, we created an enhanc
 | **`Picture of Server Part.pdf`** | **Proof 1:** Screenshot showing the standard `main.py` running successfully. |
 | **`Picture of server for suggestion part.pdf`** | **Proof 2:** Screenshot showing the `main_adaptive.py` running with the connection retry loop working. |
 
----
-c/systemd/system/
-sudo systemctl daemon-reload
+
